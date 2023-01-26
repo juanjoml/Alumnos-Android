@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:focusableInTouchMode="true"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textViewCalifiaciones"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Calificaciones"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/textViewNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nombre:"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/editTextNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Manuel" />
+
+    <TextView
+        android:id="@+id/textViewCalificacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calificación:"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/editTextCalificacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="0" />
+
+    <TextView
+        android:id="@+id/textViewCurso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Curso:"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/editTextCurso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="1" />
+
+    <Button
+        android:id="@+id/buttonVaciar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="funcionvaciar"
+        android:text="VACIAR" />
+
+    <Button
+        android:id="@+id/buttonGuardar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="funcionguardar"
+        android:text="GUARDAR EN:" />
+
+    <EditText
+        android:id="@+id/editTextGuardar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/buttonAlumno1"
+        android:layout_width="match_parent"
+        android:onClick="funcionalumno1"
+        android:layout_height="wrap_content"
+        android:text="ALUMNO 1" />
+
+    <Button
+        android:id="@+id/buttonAlumno2"
+        android:layout_width="match_parent"
+        android:onClick="funcionalumno2"
+        android:layout_height="wrap_content"
+        android:text="ALUMNO 2" />
+
+    <Button
+        android:id="@+id/buttonAlumno3"
+        android:layout_width="match_parent"
+        android:onClick="funcionalumno3"
+        android:layout_height="wrap_content"
+        android:text="ALUMNO 3" />
+
+    <TextView
+        android:id="@+id/textViewEstado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Estado:" />
+
+    <TextView
+        android:id="@+id/textViewAproSusp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Aprobado/Suspenso" />
+
+    <TextView
+        android:id="@+id/textViewValoracion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Valoracion:" />
+
+    <TextView
+        android:id="@+id/TextViewInsuficienteSuficiente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Insuficiente/Suficiente" />
+
+</LinearLayout>
